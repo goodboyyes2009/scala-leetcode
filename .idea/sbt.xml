@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherEnabled" value="true" />
+    <option name="customLauncherPath" value="/usr/local/sbt/bin/sbt-launch.jar" />
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="/usr/local/jdk1.8.0_291" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="0.13.12" />
+        <option name="useAutoImport" value="true" />
+      </SbtProjectSettings>
+    </option>
+    <option name="vmParameters" value="-DhttpProxyHost=127.0.0.1 -DhttpProxyPort=12333 -Dsbt.log.format=true -Dsbt.boot.directory=/home/hj/.sbt/boot -Dsbt.global.base=/home/hj/.sbt -Dsbt.ivy.home=/home/hj/sbt_repo/.ivy2 -Dsbt.repository.config=/home/hj/.sbt/repositories -Dsbt.repository.secure=false -Dfile.encoding=UTF8 -Dsbt.override.build.repos=true" />
+  </component>
+</project>
